@@ -2,7 +2,7 @@
 
 int main()
 {
-    juce::Logger::writeToLog("Hello World");
+    juce::Logger::writeToLog("Hell World");
 
     return 0;
 }

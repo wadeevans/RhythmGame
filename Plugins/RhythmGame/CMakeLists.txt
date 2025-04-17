@@ -1,6 +1,6 @@
-project(NewPluginTemplate VERSION 0.0.1)
+project(RhythmGame VERSION 0.0.1)
 
-set (BaseTargetName NewPluginTemplate)
+set (BaseTargetName RhythmGame)
 
 juce_add_plugin("${BaseTargetName}"
         # VERSION ...                               # Set this if the plugin version is different to the project version
@@ -13,10 +13,10 @@ juce_add_plugin("${BaseTargetName}"
         IS_MIDI_EFFECT FALSE
         EDITOR_WANTS_KEYBOARD_FOCUS FALSE
         COPY_PLUGIN_AFTER_BUILD TRUE
-        PLUGIN_MANUFACTURER_CODE Juce
-        PLUGIN_CODE NPtm
-        FORMATS AU VST3 Standalone
-        PRODUCT_NAME "Audio Plugin Example")
+        PLUGIN_MANUFACTURER_CODE WEVa
+        PLUGIN_CODE RYgm
+        FORMATS VST3 Standalone
+        PRODUCT_NAME "Rhythm Game")
 
 target_sources(${BaseTargetName} PRIVATE
         Source/PluginProcessor.cpp
